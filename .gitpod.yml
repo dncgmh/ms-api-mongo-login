@@ -1,8 +1,3 @@
  
 image:
-  file: Dockerfile
-ports:
-  - port: 6080
-tasks:
-  - init: yarn
-    command: ./scripts/code.sh
+  file: .gitpod.Dockerfile
